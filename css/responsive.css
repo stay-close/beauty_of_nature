@@ -1,0 +1,77 @@
+@media(max-width: 1140px) {}
+
+@media(max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+    .header_content h1 {
+        font-size: 45px;
+    }
+    .container {
+        padding: 40px 80px;
+    }
+    .about_content {
+        grid-template-columns: 1fr;
+    }
+    .design_card {
+        grid-template-columns: 1fr;
+    }
+    .design_delivery_area {
+        height: auto;
+    }
+    .design_delivery_content {
+        justify-items: center;
+    }
+    .design_heading h2 {
+        text-align: center;
+    }
+    .studio_info {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .studio_info_left {
+        left: 50%;
+        transform: translate(-50%)
+    }
+    .studio_info_right {
+        margin-top: 330px;
+    }
+    .studio_info_right .img_box img {
+        width: 100%;
+    }
+    .single_info {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media(max-width: 768px) {
+    html {
+        font-size: 65%;
+    }
+    .header_content h1 {
+        font-size: 35px;
+    }
+    .container {
+        padding: 30px 60px;
+    }
+    .contact_us_area {
+        margin-top: 500px;
+    }
+    .contact_content {
+        grid-template-columns: 1fr;
+        position: absolute;
+        top: -170px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .contact_form form {
+        margin-right: 0;
+    }
+    .contact_form {
+        order: 2;
+    }
+    .contact_img {
+        order: 1;
+    }
+}
